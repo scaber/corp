@@ -1,8 +1,14 @@
+import Hero from "@/components/hero";
+import Image from "next/image";
+
 export default function ScalePage() {
-    return (
-        <div>
-        <h1>Scale</h1>
-        <p>Reliabilit page content</p>
-        </div>
-    );
-    }
+  return (
+    <div>
+      <Hero
+        imgData="/scale.jpg"
+        imgAlt="welding"
+        title="Super high quality infinitiy"
+      />
+    </div>
+  );
+}

@@ -1,8 +1,14 @@
+import Hero from "@/components/hero";
+import Image from "next/image";
+
 export default function PerformancePage() {
-    return (
-        <div>
-        <h1>Performance</h1>
-        <p>Performance page content</p>
-        </div>
-    );
-    }
+  return (
+    <div>
+      <Hero
+        imgData="/performance.jpg"
+        imgAlt="welding"
+        title="Professional Welding Services"
+      />
+    </div>
+  );
+}
